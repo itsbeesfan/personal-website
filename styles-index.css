@@ -1,0 +1,110 @@
+@font-face {
+    font-family: RonzinoOblique;
+    src: url("/ronzino-main/fonts/Ronzino-Oblique.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: RonzinoRegular;
+    src: url("/ronzino-main/fonts/Ronzino-Medium.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Aujournuit;
+    src: url("/aujournuit-main/fonts/Aujournuit-Densed.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.top-nav {
+    font-family: "RonzinoOblique";
+    overflow: hidden;
+}
+
+.top-nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+body {
+    background-image: linear-gradient(90deg, #3a85d3, #e2dce2);
+}
+
+
+h1 {
+    color: white;
+    font-family: Aujournuit;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: "RonzinoOblique";
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-family: "RonzinoRegular";
+}
+
+.tag-list {
+    margin: 0;
+    padding-inline: 0;
+    list-style: none;
+}
+
+.tag-list li {
+    padding: 1rem;
+    background: var(--clr-primary-400);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem -0.25rem var(--clr-primary-400);
+}
+
+.scroller {
+    max-width: 1600px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    /*outline: 3px solid lime*/
+}
+
+.scroller[data-animated="true"] {
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+    mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.scroller__inner {
+    padding-block: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 1rem;
+}
+
+.scroller[data-animated="true"] .scroller__inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - .5rem));
+    }
+}
+
