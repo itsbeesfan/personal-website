@@ -1,20 +1,20 @@
 @font-face {
     font-family: RonzinoOblique;
-    src: url("/ronzino-main/fonts/Ronzino-Oblique.otf") format("opentype");
+    src: url("./ronzino-main/fonts/Ronzino-Oblique.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: RonzinoRegular;
-    src: url("/ronzino-main/fonts/Ronzino-Medium.otf") format("opentype");
+    src: url("./ronzino-main/fonts/Ronzino-Medium.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: Aujournuit;
-    src: url("/aujournuit-main/fonts/Aujournuit-Densed.otf") format("opentype");
+    src: url("./aujournuit-main/fonts/Aujournuit-Densed.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
