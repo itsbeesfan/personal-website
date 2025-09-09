@@ -35,3 +35,5 @@ you have 3 htmls (home page aka index, about me and showcase), 3 css files (each
 
 _thank you!!! i'll keep updating this as time goes by, as information changes and as i (and my vibe) change. any feedback and/or
 suggestions would be highly appreciated!!_
+
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
