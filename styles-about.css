@@ -108,7 +108,7 @@ h3 {
 }
 
 .background-card-one {
-    background-image: url("/images/grid texture.jpg");
+    background-image: url("./images/grid texture.jpg");
     background-size: contain;
     padding: 1rem;
     border-radius: 1.2rem;
@@ -119,13 +119,13 @@ h3 {
     font-family: "RonzinoRegular";
     font-size: 1.5rem;
     color: darkblue;
-    background-image: url("/images/grid texture.jpg")
+    background-image: url("./images/grid texture.jpg")
     padding: 1.5rem;
     border-radius: 1.2rem;
 }
 
 .background-card-two {
-    background-image: url("/images/denim.jpeg");
+    background-image: url("./images/denim.jpeg");
     background-size: contain;
     padding: 1rem;
     border-radius: 1.2rem;
@@ -136,7 +136,7 @@ h3 {
     font-family: "RonzinoRegular";
     font-size: 1.5rem;
     color: white;
-    background-image: url("/images/denim.jpeg");
+    background-image: url("./images/denim.jpeg");
     padding: 1.5rem;
     border-radius: 1.2rem;
 }
@@ -147,7 +147,7 @@ mark {
 }
 
 .background-card-three {
-    background-image: url("/images/Printable Printable Lined Paper - College Ruled 7_1mm blue PDF Download.jpeg");
+    background-image: url("./images/Printable Printable Lined Paper - College Ruled 7_1mm blue PDF Download.jpeg");
     background-size: contain;
     padding: 1rem;
     border-radius: 1.2rem;
@@ -158,7 +158,7 @@ mark {
     font-family: "RonzinoRegular";
     font-size: 1.65rem;
     color: #3a85d3;
-    background-image: url("/images/Printable Printable Lined Paper - College Ruled 7_1mm blue PDF Download.jpeg");
+    background-image: url("./images/Printable Printable Lined Paper - College Ruled 7_1mm blue PDF Download.jpeg");
     padding: 1.5rem;
     border-radius: 1.2rem;
 }
