@@ -182,7 +182,7 @@ mark {
 }
 
 .background-card-five {
-    background-image: url("/images/comic.jpeg");
+    background-image: url("./images/comic.jpeg");
     background-size: contain;
     padding: 1rem;
     border-radius: 1.2rem;
@@ -193,7 +193,7 @@ mark {
     font-family: "RonzinoRegular";
     font-size: 1.5rem;
     color: #3a85d3;
-    background-image: url("/images/comic.jpeg");
+    background-image: url("./images/comic.jpeg");
     padding: 1.5rem;
     border-radius: 1.2rem;
 }
